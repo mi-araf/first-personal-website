@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;;
+}
+h2 {
+    font-size: 39px;
+}
+#name {
+    color: rgb(238, 42, 202);
+    font-size: 42px;
+    font-weight: 700;
+}
+section {
+    height: 500px;
+    padding-bottom: 120px;
+}
+.link-button {
+    /* avoiding/canceling the underscore  (defalut underscore)*/
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(255, 165, 30, 0.809);
+    background-image: linear-gradient(50deg, rgb(92, 28, 135), rgba(205, 94, 245, 0.904));
+    padding: 10px 19px;
+    border-radius: 6px;
+    /* border: 1px solid rgba(221, 133, 1, 0.809); */
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+a:hover {
+    background-image: linear-gradient(52deg, rgba(246, 67, 67, 0.904), rgb(117, 52, 52));
+}
+.half {
+    width: 37%;
+    float: left;
+    margin-left: 120px;
+    padding-top: 110px;
+}
+.half > img {
+    width: 68%;
+}
+.top {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+.mid {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    /* background-size: 110px; */
+    background-position: right;
+}
+#lat {
+    font-size: 44px;
+    text-align: center;
+}
+.lat-img {
+    width: 28%;
+    padding: 10px;
+    /* align-items: center; */
+    margin-left: 2%;
+}
+.latest-work {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.cl {
+    text-align: center;
+}
+.client {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+#msg {
+    margin: 13px 370px;
+    border-radius: 12px;
+    color: wheat;
+    text-align: center;
+    background-color: rgb(213, 31, 122);
+    padding: 45px;
+}
+#small_msg {
+    font-size: 20px;
+}
+#email {
+    font-size: 39px;
+    font-weight: 249;
+}
+footer {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 50;
+}
